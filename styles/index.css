@@ -1,0 +1,32 @@
+.receta-story {
+    background-image: url('../assents/img/fotos/descarga.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;   
+}
+.receta-story::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.519);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(2px) brightness(.9);
+}
+.row-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-20);
+    align-items: start;
+    z-index: 2;
+    position: relative;
+}
+
+.navbar-menu {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px) brightness(.9);
+}
