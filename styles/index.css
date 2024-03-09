@@ -1,3 +1,12 @@
+.receta {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assents/img/fotos/descarga.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+
 .receta-story {
     background-image: url('../assents/img/fotos/descarga.jpeg');
     background-position: center center;
